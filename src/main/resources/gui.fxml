@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<Scene height="600" width="800" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxThreads.control.GuiController">
+    <FlowPane prefHeight="600" prefWidth="800">
+        <LineChart fx:id="lineChart" prefWidth="600" prefHeight="400" minHeight="400" minWidth="600" >
+            <xAxis>
+                <NumberAxis side="BOTTOM"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT"/>
+            </yAxis>
+        </LineChart>
+    </FlowPane>
+
+</Scene>
